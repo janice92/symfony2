@@ -15,7 +15,7 @@ class DefaultController extends Controller
     {
         return $this->render('symfonyCinemaBundle:Default:index.html.twig');
     }
-
+//test
     /**
     * @Route("/films")
     */
@@ -43,6 +43,6 @@ class DefaultController extends Controller
         'symfonyCinemaBundle:Film:show.html.twig',
         ['film' => $film]
     );
-    
+
     }
 }
